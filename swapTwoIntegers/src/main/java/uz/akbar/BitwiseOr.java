@@ -1,6 +1,6 @@
 package uz.akbar;
 
-public class App {
+public class BitwiseOr {
 	public static void main(String[] args) {
 		int a = 5;
 		int b = 10;
