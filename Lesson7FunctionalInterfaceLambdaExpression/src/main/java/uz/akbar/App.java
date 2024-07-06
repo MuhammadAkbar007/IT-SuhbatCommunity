@@ -16,8 +16,8 @@ public class App {
 		System.out.println(operation.isPrime(input) ? (input + " is prime.") : (input + " is not prime."));
 
 		// Comparator Functional Interface
-		int[] nums = new int[] { 2, 35, 67, 12, 7, 89, 8, 15 };
-		// Arrays.sort(numbers);
+		Integer[] nums = new Integer[] { 2, 35, 67, 12, 7, 89, 8, 15 };
+		// Arrays.sort(nums);
 
 		Arrays.sort(nums, (a, b) -> {
 			if (a < b)
